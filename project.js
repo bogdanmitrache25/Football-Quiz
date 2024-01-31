@@ -1,6 +1,3 @@
-/*                         Enunciado. 
-Desarrolla un progrma en Js que simule un juego de preguntas y respuestas. El juego debe contener al menos 10 preguntas con opciones de respuesta. El usuario inresará sus respuestas y al final del juego, el programa deberá calcular y mostrar la puntuación total obtenida, considerando las respuestas correctas e incorrectas. Utiliza funciones para modularizar el código y mejora la experiencia del usuario con mensajes informativos y retroalimentación. */
-
 const questions = [
   {
     question: "Who won the inaugural Ballon d'Or award in 1956?",
