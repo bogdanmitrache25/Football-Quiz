@@ -1,4 +1,3 @@
-/* Reset de estilos */
 * {
   margin: 0;
   padding: 0;
@@ -6,11 +5,9 @@
   box-sizing: border-box;
 }
 
-/* Estilos del encabezado */
-/* Estilos del encabezado */
 header {
   color: beige;
-  font-size: 25px; /* Tamaño del texto aumentado */
+  font-size: 25px;
   text-align: center;
   margin-top: 20px;
   background-color: rgb(219, 75, 17);
@@ -18,23 +15,19 @@ header {
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  font-family: "Arial", sans-serif; /* Cambia el tipo de letra a Arial */
+  font-family: "Arial", sans-serif;
 }
 
-/* Estilos para el emoticono */
 .football-icon {
-  font-size: 30px; /* Tamaño del emoticono */
-  vertical-align: middle; /* Alinea verticalmente con el texto */
-  margin-right: 10px; /* Espacio a la derecha del emoticono */
+  font-size: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
-/* Estilos del cuerpo */
 body {
   background: #001e4d;
 }
 
-/* Estilos de la aplicación */
-/* Estilos de la aplicación */
 .app {
   background: white;
   width: 90%;
@@ -42,31 +35,28 @@ body {
   margin: 100px auto 0;
   border-radius: 10px;
   padding: 30px;
-  padding-bottom: 80px; /* Add padding to the bottom */
+  padding-bottom: 80px;
 }
 
-/* Estilos del título */
 .app h1 {
   font-size: 25px;
   color: #001e4d;
   font-weight: 600;
   border-bottom: 1px solid #333;
   padding-bottom: 30px;
+  text-align: center;
 }
 
-/* Estilos del quiz */
 .quiz {
   padding: 20px 0;
 }
 
-/* Estilos del texto de la pregunta */
 .quiz h2 {
   font-size: 18px;
   color: #001e4d;
   font-weight: 600;
 }
 
-/* Estilos de los botones de respuesta */
 .btn {
   background: white;
   color: #222;
@@ -81,13 +71,11 @@ body {
   transition: all 0.3s;
 }
 
-/* Estilos de los botones de respuesta al pasar el mouse */
 .btn:hover:not([disabled]) {
   background: #222;
   color: white;
 }
 
-/* Estilos del botón de siguiente */
 #next-btn {
   background: #001e4d;
   color: white;
@@ -95,25 +83,24 @@ body {
   width: 150px;
   border: 0;
   padding: 10px;
-  margin: 20px auto 0;
+  margin: 5px auto 5px;
   border-radius: 4px;
   cursor: pointer;
   display: block;
+  position: relative;
+  z-index: 1;
 }
 
-/* Estilos de respuesta correcta */
 .correct {
-  background-color: #aaf0d1; /* Cambia el color de fondo para respuestas correctas */
-  animation: pulse 0.5s ease alternate infinite; /* Agrega una animación de pulso */
+  background-color: #aaf0d1;
+  animation: pulse 0.5s ease alternate infinite;
 }
 
-/* Estilos de respuesta incorrecta */
 .incorrect {
-  background-color: #ffcccb; /* Cambia el color de fondo para respuestas incorrectas */
-  animation: shake 0.5s ease infinite; /* Agrega una animación de sacudida */
+  background-color: #ffcccb;
+  animation: shake 0.5s ease infinite;
 }
 
-/* Define las animaciones */
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -141,40 +128,25 @@ body {
   }
 }
 
-/* Media query para dispositivos de pantalla mediana (tablets) */
 @media screen and (min-width: 768px) {
-  /* Agrega estilos específicos para dispositivos de pantalla mediana aquí */
 }
 
-/* Media query para dispositivos de pantalla grande (escritorio) */
 @media screen and (min-width: 1024px) {
-  /* Agrega estilos específicos para dispositivos de pantalla grande aquí */
 }
 
-/* Estilos del footer */
 .footer {
-  text-align: center; /* Centra el texto */
-  color: white; /* Color del texto */
-  background-color: #001e4d; /* Color de fondo */
-  padding: 20px; /* Espaciado interno */
-  position: fixed; /* Fija el footer en la parte inferior */
-  left: 0; /* Coloca el footer en la esquina izquierda */
-  bottom: 0; /* Coloca el footer en la parte inferior */
-  width: 100%; /* Ancho completo */
-}
-
-/* Media query para dispositivos de pantalla mediana (tablets) */
-@media screen and (min-width: 768px) {
-  /* Agrega estilos específicos para dispositivos de pantalla mediana aquí */
-}
-
-/* Media query para dispositivos de pantalla grande (escritorio) */
-@media screen and (min-width: 1024px) {
-  /* Agrega estilos específicos para dispositivos de pantalla grande aquí */
+  text-align: center;
+  color: white;
+  background-color: #001e4d;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer a {
-  color: #ff6600; /* Cambia el color del texto a naranja */
-  text-decoration: none; /* Elimina el subrayado del enlace */
-  font-weight: bold; /* Hace que el texto sea más llamativo */
+  color: #ff6600;
+  text-decoration: none;
+  font-weight: bold;
 }
